@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, 
+ Inc.//DTD JSP Tag Library 1.1//EN" 
+ "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+ 
+ <taglib> 
+    <tlibversion>2.0</tlibversion> 
+    <jspversion>2.3</jspversion>
+    <shortname>Etiqueta</shortname>
+    
+    <tag>
+    	<name>Perfil</name> 
+        <tagclass>etiqueta.EtiPerfil</tagclass>
+        <bodycontent>empty</bodycontent>
+        
+        <attribute> 
+            <name>idUsuario</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        
+        <attribute> 
+            <name>nombre</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        
+        <attribute> 
+            <name>correo</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+              
+        <attribute> 
+            <name>dni</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute> 
+    </tag>
+    
+    
+    <tag>
+    
+    	<name>InfoCurso</name> 
+        <tagclass>etiqueta.EtiInfoCurso</tagclass>
+        <bodycontent>empty</bodycontent>
+        
+        <attribute> 
+            <name>idCurso</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        
+        <attribute> 
+            <name>precio</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        
+        <attribute> 
+            <name>titulo</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        
+        <attribute> 
+            <name>descripcion</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        
+        <attribute> 
+            <name>idCategoria</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        
+        <attribute> 
+            <name>profesor</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+          
+    </tag>
+   
+   
+ </taglib>
